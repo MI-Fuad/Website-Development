@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+       
+    </head>
+    
+    <body>
+        
+        <script type="text/javascript">
+            
+        
+        var i = 10;
+        var counter = setInterval( count, 500 );
+            
+        function count() {
+          
+        
+        if (i >= 1) {
+            $("#numbers").html(i)
+            console.log(i);
+            i = i - 1;
+        }
+        else {
+            $("#numbers").html("The End")
+            
+            clearInterval(counter);
+        }
+      } 
+            
+            
+     
+        </script>
+        <button id="initiate"> Click to start!</button>
+        <p id="numbers"></p>
+    </body>
+</html>
+
+
+ 

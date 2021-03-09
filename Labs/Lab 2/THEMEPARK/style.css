@@ -1,0 +1,32 @@
+.indent{margin: 10px
+}
+
+.ratio-resize { 
+    max-width: 100%;
+	height: auto;
+    width: auto\9; }
+
+.nav{background-color: lightyellow}
+
+.ul{color: blue;
+    font-family: sans-serif;
+    }
+
+body{background-color: lightgoldenrodyellow}
+
+a{font-family: fantasy;
+color: coral}
+h1{font-family: fantasy;
+text-align: center}
+h2{font-family: fantasy;}
+
+.blogpost{
+    border:2px;
+    border-radius:30px;
+    border-style: solid;
+    border-color:royalblue;
+    padding:15px;
+    margin:20px;
+}
+
+ 

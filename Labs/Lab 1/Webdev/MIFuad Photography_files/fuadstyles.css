@@ -1,0 +1,214 @@
+ul {
+    
+    list-style-type: none;
+    overflow: hidden;
+    background-color: none;
+    align-content: center;
+   
+}
+
+li a {
+    display: block;
+    color: darkgrey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: inherit;
+    font-size: 20px;
+    font-family: "Gruppo"; 
+}
+
+li a:hover {
+    
+    text-decoration: none;
+}
+
+h1{
+    
+    text-align: center;
+    font-family: "Gruppo"; 
+    color: darkgrey;
+}
+
+.bgimg1{ 
+    background-image: url("../img_0.jpg"); 
+    min-height: 650px;
+    
+}
+
+.bgimg2{ 
+    background-image: url("../img_00.jpg"); 
+    min-height: 650px; 
+    max-height: 1000px;
+    opacity: 0.9;
+
+}
+
+.bgimg3{ 
+    background-image: url("../img_011.jpg"); 
+    min-height: 650px; 
+    max-height: 1000px;
+    opacity: 0.9;
+
+}
+
+.bgimg4{ 
+    background-image: url("../img_001.jpg"); 
+    min-height: 650px; 
+    max-height: 1000px;
+    
+   
+}
+
+.bgimg1, .bgimg2, .bgimg3, .bgimg4{ 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* modal styles */
+
+
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 15%;
+    
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: red;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: dimgrey;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  font-family: "Gruppo"; 
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+/*buttons on homepage */
+
+.A{
+    
+    left: 0;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    
+    width: 100%;
+}
+}
+
+

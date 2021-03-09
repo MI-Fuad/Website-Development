@@ -1,0 +1,43 @@
+body{
+    background-color:lightblue;
+    color:dimgray;
+}
+
+.centralised{
+    text-align:center;
+}
+
+.headings{
+    font-family:"Verdana";
+}
+
+.blogpost{
+    border:2px;
+    border-radius:30px;
+    border-style: solid;
+    border-color:whitesmoke;
+    padding:15px;
+    margin:20px;
+}
+
+.commentsection{
+    border:1px;
+    border-style:dashed;
+    border-color:crimson;
+    padding-left:10px;
+}
+
+.emphasis{
+    color:red;
+}
+
+.comment{
+   background-color:cornflowerblue;
+    color:white;
+}
+
+#contact{
+    text-align:right;
+    font-weight: bold;
+    font-family:"Georgia";
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Colour Picker</title>
+<link rel="stylesheet" type="text/css" href="colour_picker.css">
+<!-- include the JQuery library: -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- custom javascript: -->
+<script type="text/javascript">
+/* 
+Define function to change the page colour
+when a colour in the pallette is clicked.
+Expects 1 argument: the clicked element.
+*/
+function changeColour(e) { 
+    // get the inner HTML content of the clicked on element
+    var colour = $(e).css("background-color");
+    // output the value of colour in console
+    console.log(colour);
+$("body").css("background-color", colour);
+
+    // change the background colour of the page to 'colour'
+    // YOUR CODE HERE...
+}
+</script>
+</head>
+
+<body>
+
+<div id="page"><!-- start page wrapper -->
+
+<h1>Lab 3: Javascript Basics</h1>
+
+<div id="colour-picker">
+    <h2>Colour Picker</h2>
+    <div id="palette">
+        <ul>
+        <li onclick="changeColour(this)" class="blue">blue</li>
+	    <li onclick="changeColour(this)" class="red">red</li>
+	    <li onclick="changeColour(this)" class="yellow">yellow</li>
+	    <li onclick="changeColour(this)" class="green">green</li>
+	    <li onclick="changeColour(this)" class="orange">orange</li>
+	    <li onclick="changeColour(this)" class="cyan">cyan</li>
+	    <li onclick="changeColour(this)" class="violet">violet</li><!-- watch out...this one might catch you out! -->
+        </ul>
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+</div><!-- /page -->
+
+</body>
+</html>

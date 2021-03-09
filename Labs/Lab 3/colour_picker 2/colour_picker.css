@@ -1,0 +1,77 @@
+/* **************************************
+*   Stylesheet for Colour Picker Task   *
+*   NO NEED TO EDIT                     *
+****************************************/
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+code {
+    border: 1px solid red;
+    padding: 1px 2px;
+}
+
+#page {
+    margin: 0;
+    padding: 20px;
+    height: 100%;
+}
+
+#colour-picker {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#palette ul {
+    margin: 0;
+    padding: 0;
+}
+
+#palette ul li {
+    display: block;
+    list-style-type: none;
+    float:left;
+    margin: 0 4px 4px 0;
+    width: 80px;
+    height: 25px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 15px 10px 10px;
+    text-align: center;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* colours */
+.blue { 
+    background-color: blue;
+}
+.red { 
+    background-color: red;
+}
+.yellow { 
+    background-color: yellow;
+}
+.green { 
+    background-color: green;
+}
+.orange { 
+    background-color: orange;
+}
+.cyan { 
+    background-color: cyan;
+}
+.violet { 
+    background-color: violet;
+}
