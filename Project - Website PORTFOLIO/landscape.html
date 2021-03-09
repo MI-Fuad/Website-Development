@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <title> MIFuad Photography </title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="js/jscode.js"> </script>
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/fuadstyles.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Gruppo" rel="stylesheet">
+      
+       <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+     
+      
+      <link rel="shortcut icon" type="image/png" href="./photos/Fuadlogo.png">
+      
+      
+  </head>
+    
+  <body>
+      
+    <div class="bgLandscape"> <!--Parallax-->
+     <nav> <!--Navbar-->
+      <div class="container-fluid">
+        <ul class="list-unstyled list-inline text-center">
+         <li><a href="index.html">Home</a></li>
+         <li><a href="portfolio.html">Portfolio</a></li>
+         <li class="dropdown active" ><a><span>Albums</span></a>
+           <ul class="dropdown-content list-unstyled">
+             <li><a href="cityscape.html">Cityscapes</a></li>
+             <li><a href="landscape.html">Landscapes</a></li>
+             <li><a href="people.html">People</a></li>
+           </ul>
+         </li>      
+         <li><a href="me.html">About</a></li>
+         
+        </ul>   
+          
+          <h1 class="animated fadeInDown">LANDSCAPES</h1>  
+      </div>
+      </nav>
+     </div>
+      
+       <div class="bgContent">
+      <!-- modal/lightbox -->
+      <div id="container">
+      <ul id="myImages">
+          <li><img src="./photos/landscape/ls_0.jpg" alt="" onclick="openModal(); currentSlide(1)" class="hover-shadow cursor"/></li>
+          
+          <li><img src="./photos/landscape/ls_00.jpg" alt="" onclick="openModal(); currentSlide(2)" class="hover-shadow cursor"/></li>
+          
+          <li><img src="./photos/landscape/ls_000.jpg" alt="" onclick="openModal(); currentSlide(3)" class="hover-shadow cursor"/></li>
+          
+          <li><img src="./photos/landscape/ls_1.jpg" alt="" onclick="openModal(); currentSlide(4)" class="hover-shadow cursor"/></li>
+          
+          <li><img src="./photos/landscape/ls_2.jpg" alt="" onclick="openModal(); currentSlide(5)" class="hover-shadow cursor"/></li>
+          
+          <li><img src="./photos/landscape/ls_3.jpg" alt="" onclick="openModal(); currentSlide(6)" class="hover-shadow cursor"/></li>
+          
+          <li><img src="./photos/landscape/ls_4.jpg" alt="" onclick="openModal(); currentSlide(7)" class="hover-shadow cursor"/></li>
+          
+          <li><img src="./photos/landscape/ls_5.jpg" alt="" onclick="openModal(); currentSlide(8)" class="hover-shadow cursor"/></li>
+          
+          <li><img src="./photos/landscape/ls_6.jpg" alt="" onclick="openModal(); currentSlide(9)" class="hover-shadow cursor"/></li>
+          
+          <li><img src="./photos/landscape/ls_7.jpg" alt="" onclick="openModal(); currentSlide(10)" class="hover-shadow cursor"/></li>
+        </ul>
+    </div>
+      
+    <div id="myModal" class="modal"> <!-- modal -->
+     <span class="close cursor" onclick="closeModal()">&times;</span>
+          
+     <div class="modal-content"> <!-- modal content -->
+                  
+        <div class="mySlides">
+         <div class="TextNum">1 / 10</div>
+          <img src="./photos/landscape/ls_0.jpg" alt="" style="width:100%">
+        </div>  
+         
+        <div class="mySlides">
+         <div class="TextNum">2 / 10</div>
+          <img src="./photos/landscape/ls_00.jpg" alt="" style="width:100%">
+        </div>  
+         
+        <div class="mySlides">
+         <div class="TextNum">3 / 10</div>
+          <img src="./photos/landscape/ls_000.jpg" alt="" style="width:100%">
+        </div>  
+         
+        <div class="mySlides">
+         <div class="TextNum">4 / 10</div>
+          <img src="./photos/landscape/ls_1.jpg" alt="" style="width:100%">
+        </div>  
+         
+        <div class="mySlides">
+         <div class="TextNum">5 / 10</div>
+          <img src="./photos/landscape/ls_2.jpg" alt="" style="width:100%">
+        </div>  
+         
+         <div class="mySlides">
+         <div class="TextNum">6 / 10</div>
+          <img src="./photos/landscape/ls_3.jpg" alt="" style="width:100%">
+        </div> 
+         
+         <div class="mySlides">
+         <div class="TextNum">7 / 10</div>
+          <img src="./photos/landscape/ls_44.jpg" alt="" style="width:100%">
+        </div>  
+         
+         <div class="mySlides">
+         <div class="TextNum">8 / 10</div>
+          <img src="./photos/landscape/ls_5.jpg" alt="" style="width:100%">
+        </div> 
+         
+          <div class="mySlides">
+         <div class="TextNum">9 / 10</div>
+          <img src="./photos/landscape/ls_6.jpg" alt="" style="width:100%">
+        </div> 
+         
+          <div class="mySlides">
+         <div class="TextNum">10 / 10</div>
+          <img src="./photos/landscape/ls_7.jpg" alt="" style="width:100%">
+        </div> 
+         <!-- prev / next buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+     
+      
+
+       </div> <!-- /modal content -->
+      </div>  <!-- / modal -->         
+     </div>   
+      
+
+      
+      
+    
+  </body>
+</html>          
+      

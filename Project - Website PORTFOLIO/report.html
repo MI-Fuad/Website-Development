@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Report: MFAKR001</title>
+</head>
+<body>
+<h1>MAHMUDUL FAKRUL Report: Large Coursework Option 1</h1>
+
+<p><strong>State 3 things that have inspired you when creating your website.</strong> These could include guest speakers, other websites, artists, developers etc.</p>
+
+<p>When the large coursework was mentioned, I knew instantly what I wanted to make for my project, which is a portfolio of my own work as a photographer. I have been inspired by many photographers such as Daniel Kordan, Mario Testino, Hugo Lopes. Seeing their work and websites inspired me to make my own photo gallery. Parallax effect on web pages is something I found really interesting and appealing, so I used w3schools.com tutorial to help me achieve the outcome. Lightbox of images is something I found interesting too, after many attempts and adaptations with the w3schools.com tutotial, I was able to achieve my desired look.  </p>
+
+<p><strong>State 3 ways in which your site is accessible.</strong></p>
+    
+<p> I have used hedings correctly to organise the structure of my content</p> 
+<p>'alt="" ' tags on images with desriptions where appropriate; in case of images not loading, user would be able to see brief description on the image</p>    
+<p>I have made buttons and links with unique and appropriate names which makes users navigate the website with ease making the experience more user-friendly for different categories of users. Mostly natively usable from keyboard</p>
+
+    
+
+<p><strong>State 3 ways in which you have considered usability in your site.</strong></p>
+
+<p>It is a website related to photography, that message is given to users when site loads. I have tried to layout in a way that the users are able to guess what the page is about almost immediately. </p>
+<p>I have included arrows where appropriate to navigate my site, for example the arrown on homepage for users to understand scroll down for more content. It gives a nice flow to the website in my opinion.</p>  
+<p>Consistent look throughout the website using same colour schemes for the same type of content. </p>    
+    
+
+<p><strong>State 3 things you had to learn/find out by yourself when creating your site, and describe how you did that</strong> (i.e. what searches you did, any new tools/techniques you learned, any changes/adaptations you made to a particular resource to make it work with your site).</p>
+
+<p>Parallax Effect - learnt how to give the site a parallax scrolling effect, using nothing but pure CSS style codes.</p>
+    
+<p>Masorny Layout - Learnt about how to layout images in a masorny layout without any javascript but completely with CSS style codes.</p> 
+    
+<p>Modal Lightbox - Learnt about how to use a combination of javascript and CSS to create a Lightbox image gallery.</p>    
+
+<p><strong>What aspect(s) of your work do you think worked well and why?</strong></p>
+
+<p>I believe the parallax effect of my work and the overall design worked well because I kept it quite minimal and simple with suitable colour schemes accross the site, giving it overall a consistant look and feel.</p>
+<p>Responsiveness of my site is another aspect works well as I have used media queries for different sized screens</p>
+    
+
+<p><strong>What aspect(s) of your work could be improved, and how might you do things differently another time?</strong></p>
+
+<p>Accessability of my website could be improved, by making the entire website usable through the keyboard and make it more usable for disable users.</p>
+<p>Html code for images could be improved using templates.</p>    
+
+<p><strong>What resources were used when creating your work?</strong> You should list here any sources of information, libraries, plug-ins or other code that you used to create your site. You should also reference any code you've used by inserting comments at the start of the scripts.</p>
+
+<!-- BEGIN content to be replaced with YOUR REFERENCES -->
+<h3>Format for citing code:</h3>    
+    
+    
+<p><strong>[1] D, Eden, 'animate.css'/ code' </strong> (
+    
+    .animated {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+/*slide down animation */
+@-webkit-keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+.slideInDown {
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+}
+    
+/*FADE IN UP animation*/
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+
+/*FADE IN DOWN animation in homescreen*/
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}),<strong> 2015. [Source code]. https://github.com/daneden/animate.css/blob/master/animate.css </strong></p>    
+
+<p><strong>[2] N, Naoya, 'CSS scroll down animation/ code'</strong>(section {
+	position: relative;
+    margin-top: 350px;
+    margin-left:-70px;
+	width: 100%;
+	height: 100%;
+}
+
+section::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	content: '';
+	width: 100%;
+	height: 80%;
+	background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+	background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 80%,rgba(0,0,0,.8) 100%);
+}
+
+.demo p {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	z-index: 2;
+	display: inline-block;
+	-webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	color: #fff;
+	font-family: Gruppo;
+    font-size: 30px;
+	letter-spacing: .1em;
+	text-decoration: none;
+	transition: opacity 0.3s;
+}
+
+.demo p:hover {
+	opacity: .8;  
+}
+
+#section07 p {
+	padding-top: 80px;
+}
+
+#section07 p span {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 24px;
+	height: 24px;
+	margin-left: -12px;
+	border-left: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-webkit-animation: sdb07 2s infinite;
+	animation: sdb07 2s infinite;
+	opacity: 0;
+	box-sizing: border-box;
+}
+
+#section07 p span:nth-of-type(1) {
+	-webkit-animation-delay: 0s;
+	animation-delay: 0s;
+}
+#section07 p span:nth-of-type(2) {
+	top: 16px;
+	-webkit-animation-delay: 0.15s;
+	animation-delay: 0.15s;
+}
+#section07 p span:nth-of-type(3) {
+	top: 32px;
+	-webkit-animation-delay: 0.3s;
+	animation-delay: 0.3s;
+}
+
+@-webkit-keyframes sdb07 {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@keyframes sdb07 {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+    ),<strong> 2015. [Source Code]. https://codepen.io/nxworld/pen/OyRrGy</strong>strong></p>
+
+<p><strong>[3] w3schools, 'Javascript only /source code' </strong>(
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+    <strong> 1999-2017 [Source Code]. http://www.w3schools.com/howto/howto_js_lightbox.asp</strong>strong></p>
+    
+    
+
+    
+    
+<h3>Format for citing online resource:</h3>
+    
+<p><strong>[1]</strong> w3schools.com, 'How to - Parallax Scrolling', 1997-2017. [Online]. Available:<a href="http://www.w3schools.com/howto/howto_css_parallax.asp">http://www.w3schools.com/howto/howto_css_parallax.asp</a>,  [Accessed: 17- Nov- 2016].</p>
+
+<p><strong>[2]</strong> Google fonts, ‘Google fonts’, 2015. [Online]. Available:<a href="https://fonts.google.com">https://fonts.google.com/</a>, [Accessed: 17- Nov - 2016].</p>
+    
+<p><strong>[3]</strong> w3schools.com, ‘How to - Lightbox', 1997-2017. [Online]. Available:<a href="http://www.w3schools.com/howto/howto_js_lightbox.asp">http://www.w3schools.com/howto/howto_js_lightbox.asp</a>, [Accessed: 10- Dec - 2016].</p>    
+    
+<p><strong>[4]</strong>w3schools.com, 'CSS3 Media Queries', 1999-2017. [Online]. Available:<a href="http://www.w3schools.com/css/css3_mediaqueries.asp"> http://www.w3schools.com/css/css3_mediaqueries.asp <a> [Accessed: 10- Dec- 2013]>.</p>
+
+<p><strong>[5]</strong> Naoya, 'CSS scroll down button', 2015. [Online]. Available:<a href="https://codepen.io/nxworld/pen/OyRrGy"> https://codepen.io/nxworld/pen/OyRrGy <a> [Accessed:  12- Dec- 2016]>.</p>
+
+<p><strong>[6]</strong> w3schols.com, '@font-face Rule', 1999-2017. [Online]. Available:<a href="http://www.w3schools.com/cssref/css3_pr_font-face_rule.asp"> http://www.w3schools.com/cssref/css3_pr_font-face_rule.asp <a> [Accessed: 22- Dec- 2016]>.</p>
+
+<p><strong>[7]</strong> O, Hardman,  ‘Ailerons Font Download’, 2015. [Online]. Available:<a href= "https://trouge.com/free-ailerons-font-download/"> https://trouge.com/free-ailerons-font-download/ <a> [Accessed: 22- Dec- 2016]>.</p>
+
+<p><strong>[8]</strong>J, Johnson, 'Three Super Easy Ways to Pull Off a Masonry Layout', 2012. [Online]. Available:<a href="https://designshack.net/articles/css/masonry/"> https://designshack.net/articles/css/masonry/ <a> [Accessed: 04 - Jan- 2017]>.</p>
+
+<p><strong>[9]</strong> w3schools.com, 'How to – Animate Buttons', 1999-2017. [Online]. Available:<a href="http://www.w3schools.com/howto/howto_css_animate_buttons.asp"> http://www.w3schools.com/howto/howto_css_animate_buttons.asp<a> [Accessed: 05- Jan- 2017]>.</p>
+
+<p><strong>[10]</strong> w3schools.com, ‘CSS3 Dropdowns', 1999-2017. [Online]. Available:<a href="http://www.w3schools.com/css/css_dropdowns.asp"> http://www.w3schools.com/css/css_dropdowns.asp <a> [Accessed: 07- Jan- 2017]>.</p>
+
+<p><strong>[11]</strong> w3schools.com, ‘CSS3 Shadow Effects', 1999-2017. [Online]. Available:<a href="http://www.w3schools.com/css/css3_shadows.asp"> http://www.w3schools.com/css/css3_shadows.asp <a> [Accessed: 08- Jan- 2017]>.</p>
+
+    
+    
+
+<p><strong>IGOR LINK</strong></p>
+<a href="http://doc.gold.ac.uk/~mfakr001/webdev/PORTFOLIO/index.html"> http://doc.gold.ac.uk/~mfakr001/webdev/PORTFOLIO/index.html</a>   
+    
+<!-- END content to be replaced -->
+
+</body>
+</html>
